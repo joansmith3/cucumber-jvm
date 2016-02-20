@@ -1,16 +1,6 @@
+---
 language: java
 script: mvn -q clean install
 jdk:
-  - openjdk6
-  - oraclejdk7
-# whitelist
-branches:
-  only:
-    - master
-
-notifications:
-  email:
-    - cukes-devs@googlegroups.com
-  irc:
-    - "irc.freenode.org#cucumber"
-    
+- openjdk6
+- oraclejdk7
